@@ -109,3 +109,14 @@ n = 6
 m,n = n,m  #m, n = n, m is called multiple assignment / tuple unpacking in Python. It is commonly used to swap two variables.
 print(m,n)
 
+# Another Method for Swapping the numbers
+
+var1 = 2
+var2 = 5
+
+temporary = var2 #temporary = 5 and var2 = 5
+print(temporary,var2)
+var2 = var1 #var2 = 2 and var1 = 2
+print("var1 = ",var1,"and var2 = ",var2)
+var1 = temporary # var1 = 2 and temporary = 2
+print("var1 = ",var1,"and var2 = ",var2)

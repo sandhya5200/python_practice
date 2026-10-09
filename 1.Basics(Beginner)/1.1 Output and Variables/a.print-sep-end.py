@@ -12,18 +12,3 @@ print("are siblings")
 print("apple","banana","cherry", end=" are fruits\n", sep = "-")   
 
 
-# 1. Print "Hello, World!" to the screen.
-print('Hello, World!')
-
-# 2. Print your name and age on two separate lines using one print() call.
-print("sandhya \n23")
-
-# 3. Print the numbers 1 to 5 on one line separated by dashes using the sep argument.
-print("1","2","3","4","5", sep="-")
-print("java","python","c", sep="|")
-
-# 4. Print three words on one line without a newline between separate print() calls using end.
-print("i am sandhya", end =" ")
-print("sandhya", end = " ")
-print("ok")
-
