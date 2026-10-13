@@ -109,8 +109,18 @@ a = 5
 print(~a)  # Output: -6
 
 # 5. Left shift (<<)
-# Shifts the bits to the left by the specified number of positions. For non-negative integers, this is equivalent to multiplying by a power of 2.
+• Shifts the bits of a binary number to the left.
+• As a consequence, it multiplies the number by (2^n), where n is the magnitude of the shift.
 
+a = 3
+a in binary is: 
+011
+Left shift by 1:
+a << 1 = 0110 = 6
+Left shift by 2:
+a << 2 = 01100 = 12
+Rule:
+a << n = a * (2 ** n)
 
 
 
